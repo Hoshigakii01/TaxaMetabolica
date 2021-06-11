@@ -65,7 +65,7 @@ char sexo[2];
 				}
 				else{
 					
-				printf("Nenhuma das opções anteriores");
+				printf("Nenhuma das opï¿½ï¿½es anteriores");
 				}
 		}
 		
@@ -112,7 +112,7 @@ char sexo[2];
 				}
 				else{
 					
-				printf("Nenhuma das opções anteriores");
+				printf("Nenhuma das opï¿½ï¿½es anteriores");
 				}
 		}
 		
@@ -127,10 +127,10 @@ return 0;
 
 void calculoImc(float alturaf,float altura, float peso ){
 	alturaf=(altura/100);				
-	printf("O seu imc é de -> %0.1f",peso/(alturaf*alturaf));
+	printf("O seu imc ï¿½ de -> %0.1f",peso/(alturaf*alturaf));
 }
 void mostrartbm(int tmb, float peso, float altura,int idade, int sexocalorias, float lvatividade){
 	tmb=(((10*peso)+(6.25*altura)-(5*idade))+sexocalorias)*lvatividade;
-	printf("A sua taxa metabólica basal e de:%d \n",tmb);
+	printf("A sua taxa metabï¿½lica basal e de:%d \n",tmb);
 }
 
